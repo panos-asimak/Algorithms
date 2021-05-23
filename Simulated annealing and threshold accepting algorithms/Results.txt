@@ -1,0 +1,258 @@
+
+   S1  S2  S3  S4  S5  S6  S7  S8  S9  S10  
+S1  0  26  30  23  17  36  16  47  42  34  
+S2  26  0  31  15  16  27  17  37  22  29  
+S3  30  31  0  30  11  31  28  37  28  22  
+S4  23  15  30  0  40  12  55  62  36  14  
+S5  17  16  11  40  0  22  60  38  29  61  
+S6  36  27  31  12  22  0  31  30  51  19  
+S7  16  17  28  55  60  31  0  60  51  38  
+S8  47  37  37  62  38  30  60  0  40  30  
+S9  42  22  28  36  29  51  51  40  0  36  
+S10  34  29  22  14  61  19  38  30  36  0  
+
+
+                 START OF SIMULATION ANNEALING ALGORITHM                  
+
+INITIAL SOLUTION :S1-S2-S7-S4-S9-S6-S5-S8-S10-S3-S1-
+ZCurrent=Zbest=248.31
+Meiwsi thermokrasias kathe 3 epanalispeis
+
+
+
+             ITERATION No: 1
+Th=100
+ FIRST RANDOM 0.00125126   SECOND RANDOM 0.563585
+ CHANGE  S2 WITH  S5
+**********SOLUTION*******
+From:S1-S2-S7-S4-S9-S6-S5-S8-S10-S3-S1-
+To  :S1-S5-S7-S4-S9-S6-S2-S8-S10-S3-S1-
+with Zcurrent :278.41
+Dz =30.1$ more expensive
+next random value 0.193304
+Th=100
+NEW WORSE SOLUTION WITH CHANCE=0.740078
+S1-S5-S7-S4-S9-S6-S2-S8-S10-S3-S1-
+Zcurrent=278.41
+
+
+             ITERATION No: 2
+Th=100
+ FIRST RANDOM 0.808741   SECOND RANDOM 0.585009
+ CHANGE  S10 WITH  S6
+**********SOLUTION*******
+From:S1-S5-S7-S4-S9-S6-S2-S8-S10-S3-S1-
+To  :S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+with Zcurrent :276.13
+Dz =27.82$ more expensive
+next random value 0.479873
+Th=100
+NEW WORSE SOLUTION WITH CHANCE=0.757145
+S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+Zcurrent=276.13
+
+
+             ITERATION No: 3
+Th=100
+ FIRST RANDOM 0.350291   SECOND RANDOM 0.895962
+ CHANGE  S9 WITH  S3
+**********SOLUTION*******
+From:S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+To  :S1-S5-S7-S4-S3-S10-S2-S8-S6-S9-S1-
+with Zcurrent :284.49
+Dz =36.18$ more expensive
+next random value 0.82284
+Th=100
+Solution declined because P=0.696422<0.82284 return to initial solution
+Initial solution of iteration--->>>S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+
+
+             ITERATION No: 4
+Th=85
+ FIRST RANDOM 0.82284   SECOND RANDOM 0.746605
+ CHANGE  S6 WITH  S2
+**********SOLUTION*******
+From:S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+To  :S1-S5-S7-S4-S9-S10-S6-S8-S2-S3-S1-
+with Zcurrent :268.83
+Dz =20.52$ more expensive
+next random value 0.174108
+Th=85
+NEW WORSE SOLUTION WITH CHANCE=0.785518
+S1-S5-S7-S4-S9-S10-S6-S8-S2-S3-S1-
+Zcurrent=268.83
+
+
+             ITERATION No: 5
+Th=85
+ FIRST RANDOM 0.858943   SECOND RANDOM 0.710501
+ CHANGE  S2 WITH  S6
+**********SOLUTION*******
+From:S1-S5-S7-S4-S9-S10-S6-S8-S2-S3-S1-
+To  :S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+with Zcurrent :276.13
+Dz =27.82$ more expensive
+next random value 0.513535
+Th=85
+NEW WORSE SOLUTION WITH CHANCE=0.720872
+S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+Zcurrent=276.13
+
+
+             ITERATION No: 6
+Th=85
+ FIRST RANDOM 0.303995   SECOND RANDOM 0.0149846
+ CHANGE  S4 WITH  S5
+**********SOLUTION*******
+From:S1-S5-S7-S4-S9-S10-S2-S8-S6-S3-S1-
+To  :S1-S4-S7-S5-S9-S10-S2-S8-S6-S3-S1-
+with Zcurrent :273.96
+Dz =25.65$ more expensive
+next random value 0.0914029
+Th=85
+NEW WORSE SOLUTION WITH CHANCE=0.739512
+S1-S4-S7-S5-S9-S10-S2-S8-S6-S3-S1-
+Zcurrent=273.96
+
+
+             ITERATION No: 7
+Th=72.25
+ FIRST RANDOM 0.364452   SECOND RANDOM 0.147313
+ CHANGE  S9 WITH  S7
+**********SOLUTION*******
+From:S1-S4-S7-S5-S9-S10-S2-S8-S6-S3-S1-
+To  :S1-S4-S9-S5-S7-S10-S2-S8-S6-S3-S1-
+with Zcurrent :260.87
+Dz =12.56$ more expensive
+next random value 0.165899
+Th=72.25
+NEW WORSE SOLUTION WITH CHANCE=0.840431
+S1-S4-S9-S5-S7-S10-S2-S8-S6-S3-S1-
+Zcurrent=260.87
+
+
+             ITERATION No: 8
+Th=72.25
+ FIRST RANDOM 0.988525   SECOND RANDOM 0.445692
+ CHANGE  S3 WITH  S7
+**********SOLUTION*******
+From:S1-S4-S9-S5-S7-S10-S2-S8-S6-S3-S1-
+To  :S1-S4-S9-S5-S3-S10-S2-S8-S6-S7-S1-
+with Zcurrent :198.08
+NEW BEST SOLUTION--->S1-S4-S9-S5-S3-S10-S2-S8-S6-S7-S1-
+ NEW Zbest=198.08
+
+
+             ITERATION No: 9
+Th=72.25
+ FIRST RANDOM 0.119083   SECOND RANDOM 0.00466933
+ CHANGE  S9 WITH  S4
+**********SOLUTION*******
+From:S1-S4-S9-S5-S3-S10-S2-S8-S6-S7-S1-
+To  :S1-S9-S4-S5-S3-S10-S2-S8-S6-S7-S1-
+with Zcurrent :223.26
+Dz =25.18$ more expensive
+next random value 0.0089114
+Th=72.25
+NEW WORSE SOLUTION WITH CHANCE=0.705737
+S1-S9-S4-S5-S3-S10-S2-S8-S6-S7-S1-
+Zcurrent=223.26
+
+
+             ITERATION No: 10
+Th=61.4125
+ FIRST RANDOM 0.601764   SECOND RANDOM 0.607166
+ CHANGE  S2 WITH  S10
+**********SOLUTION*******
+From:S1-S9-S4-S5-S3-S10-S2-S8-S6-S7-S1-
+To  :S1-S9-S4-S5-S3-S2-S10-S8-S6-S7-S1-
+with Zcurrent :225.68
+Dz =27.6$ more expensive
+next random value 0.166234
+Th=61.4125
+NEW WORSE SOLUTION WITH CHANCE=0.637998
+S1-S9-S4-S5-S3-S2-S10-S8-S6-S7-S1-
+Zcurrent=225.68
+
+
+                   END OF SIMULATION ANNEALING
+
+BEST SOLUTION FOUND
+S1-S4-S9-S5-S3-S10-S2-S8-S6-S7-S1-
+Zbest=198.08
+
+                   START OF THRESHOLD ACCEPTING
+
+INITIAL SOLUTION OF THRESHOLD ACCEPTING 
+
+S1-S4-S9-S5-S3-S10-S2-S8-S6-S7-S1-
+Zinitial=198.08
+
+
+Initial temperature->Th=Zbest*0.5= 99.04
+reduction percentage D=0.7
+Reduction each iteration
+
+
+             ITERATION No: 1
+FIRST RANDOM 0.663045   SECOND RANDOM 0.450789
+CHANGE  S2 WITH  S3
+From:S1-S4-S9-S5-S3-S10-S2-S8-S6-S7-S1-
+To  :S1-S4-S9-S5-S2-S10-S3-S8-S6-S7-S1-
+with Zcurrent :201.73
+Accepted because Zcurrent-Zbest<Th, 99.04 Zcurrent-Zbest=3.65
+Zbest=198.08
+Th_new=69.328
+S1-S4-S9-S5-S2-S10-S3-S8-S6-S7-S1-
+Zcurrent=201.73
+
+             ITERATION No: 2
+FIRST RANDOM 0.352123   SECOND RANDOM 0.0570391
+CHANGE  S2 WITH  S4
+From:S1-S4-S9-S5-S2-S10-S3-S8-S6-S7-S1-
+To  :S1-S2-S9-S5-S4-S10-S3-S8-S6-S7-S1-
+with Zcurrent :200.43
+Accepted because Zcurrent-Zbest<Th, 69.328 Zcurrent-Zbest=2.35
+Zbest=198.08
+Th_new=48.5296
+S1-S2-S9-S5-S4-S10-S3-S8-S6-S7-S1-
+Zcurrent=200.43
+
+             ITERATION No: 3
+FIRST RANDOM 0.607685   SECOND RANDOM 0.783319
+CHANGE  S3 WITH  S6
+From:S1-S2-S9-S5-S4-S10-S3-S8-S6-S7-S1-
+To  :S1-S2-S9-S5-S4-S10-S6-S8-S3-S7-S1-
+with Zcurrent :194.81
+NEW BEST SOLUTION--->S1-S2-S9-S5-S4-S10-S6-S8-S3-S7-S1-
+ NEW Zbest=194.81
+Th_new=48.5296
+
+             ITERATION No: 4
+FIRST RANDOM 0.802606   SECOND RANDOM 0.519883
+CHANGE  S3 WITH  S10
+From:S1-S2-S9-S5-S4-S10-S6-S8-S3-S7-S1-
+To  :S1-S2-S9-S5-S4-S3-S6-S8-S10-S7-S1-
+with Zcurrent :221.12
+Accepted because Zcurrent-Zbest<Th, 48.5296 Zcurrent-Zbest=26.31
+Zbest=194.81
+Th_new=33.9707
+S1-S2-S9-S5-S4-S3-S6-S8-S10-S7-S1-
+Zcurrent=221.12
+
+             ITERATION No: 5
+FIRST RANDOM 0.30195   SECOND RANDOM 0.875973
+CHANGE  S5 WITH  S7
+From:S1-S2-S9-S5-S4-S3-S6-S8-S10-S7-S1-
+To  :S1-S2-S9-S7-S4-S3-S6-S8-S10-S5-S1-
+with Zcurrent :269.21
+Denied because  Zcurrent-Zbest>Th, 33.9707 Zcurrent-Zbest=74.4
+Zbest=194.81
+Th_new=33.9707
+Solution declined, return to initial solution
+Initial solution of iteration--->>>S1-S2-S9-S5-S4-S3-S6-S8-S10-S7-S1-
+
+************************END THESHOLD ACCEPT*******************
+
+BEST SOLUTION-->S1-S2-S9-S5-S4-S10-S6-S8-S3-S7-S1-
+WITH MINIMUM COST-->194.81
